@@ -5,7 +5,7 @@ Welcome to Publisch, the easy-to-integrate forum/discussion service for your com
 
 ## Prerequisites
 A Google Firebase account, with Email/Password authentication set up, and a firestore database with collections named: **posts** and **users**. Your Firestore
-rules should look like in the file rules.txt.
+rules should look like in the file firebase-rules.
 
 ## Disclaimer
 We are still in beta edition, and there may be bugs, so make sure to report them in our issues page.
