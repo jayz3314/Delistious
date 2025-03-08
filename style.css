@@ -1,0 +1,110 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #f5f5dc; /* Beige background */
+    color: #333; /* Dark gray text for readability */
+    margin: 0;
+    padding: 0;
+}
+
+#auth-container, #content-container {
+    width: 80%;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff; /* White container background */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #b8860b; /* Gold heading color */
+    margin-bottom: 20px;
+}
+
+input, textarea, button {
+    margin: 5px;
+    padding: 10px;
+    width: calc(100% - 22px); /* Adjust width for padding */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box; /* Include padding and border in width */
+}
+
+button {
+    background-color: #b8860b; /* Gold button background */
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #daa520; /* Darker gold on hover */
+}
+
+#posts-list {
+    margin-top: 20px;
+}
+
+/* Style for individual posts */
+.post {
+    border: 1px solid #eee;
+    margin: 10px 0;
+    padding: 15px;
+    background-color: #faf8f0; /* Light beige for consistency */
+    border-radius: 4px;
+    text-align: left;
+}
+
+/* Style for replies */
+.replies {
+    margin-left: 20px;
+    margin-top: 10px;
+    padding-left: 10px;
+    border-left: 2px solid #b8860b; /* Gold accent for replies */
+}
+
+.reply {
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    margin-top: 5px;
+    text-align: left;
+}
+
+.reply-text {
+    width: 95%;
+    margin-top: 5px;
+}
+
+.reply-button {
+    margin-top: 5px;
+    background-color: #b8860b; /* Gold button */
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.reply-button:hover {
+    background-color: #daa520; /* Darker gold */
+}
+
+#logout-button, #delete-account-button {
+    margin-top: 15px;
+}
+
+#signup-button {
+    background-color: #daa520; /* Slightly different gold for signup */
+}
+
+a {
+    color: #b8860b;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

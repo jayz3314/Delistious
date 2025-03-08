@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Community Posts</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="auth-container">
+        <div id="signup-form" style="display: none;">
+            <h2>Sign Up</h2>
+            <input type="text" id="signup-username" placeholder="Username">
+            <input type="email" id="signup-email" placeholder="Email">
+            <input type="password" id="signup-password" placeholder="Password">
+            <button id="signup-button">Sign Up</button>
+            <p>Already have an account? <a href="#" id="show-login">Log in</a></p>
+        </div>
+        <div id="login-form">
+            <h2>Log In to Publisch</h2>
+            <input type="email" id="login-email" placeholder="Email">
+            <input type="password" id="login-password" placeholder="Password">
+            <button id="login-button">Log In</button>
+            <p>New user? <a href="#" id="show-signup">Sign up</a></p>
+        </div>
+    </div>
+
+    <div id="content-container" style="display: none;">
+        <h2>Community Posts</h2>
+        <div id="posts-list"></div>
+	
+	<h2>Create a Post</h2>
+
+	<div id="post-form">
+            <input type="text" id="post-title" placeholder="Post Title">
+            <textarea id="post-text" placeholder="Create a new post"></textarea>
+            <button id="create-post-button">Post</button>
+
+         <div></div>		
+
+	<button id="logout-button">Logout</button>
+        <button id="delete-account-button">Delete Account</button>
+        </div>
+    </div>
+<p style=font-family: verdana;>Powered by Publisch</p>
+
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-firestore-compat.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
