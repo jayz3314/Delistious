@@ -1,12 +1,12 @@
 // Firebase Configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyDZ-XoIIWr2bmqF3ov_Cr61uvjrH8mdN7E",
-    authDomain: "leicestermasjids.firebaseapp.com",
-    projectId: "leicestermasjids",
-    storageBucket: "leicestermasjids.firebasestorage.app",
-    messagingSenderId: "1048621562596",
-    appId: "1:1048621562596:web:1423889398aeada1d14af1",
-    measurementId: "G-G75HZ0B7W0"
+    apiKey: "REPLACE_WITH_YOUR_DATA",
+    authDomain: "REPLACE_WITH_YOUR_DATA",
+    projectId: "REPLACE_WITH_YOUR_DATA",
+    storageBucket: "REPLACE_WITH_YOUR_DATA",
+    messagingSenderId: "REPLACE_WITH_YOUR_DATA",
+    appId: "REPLACE_WITH_YOUR_DATA",
+    measurementId: "REPLACE_WITH_YOUR_DATA"
 };
 
 // Initialize Firebase
